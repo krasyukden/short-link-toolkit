@@ -1,0 +1,61 @@
+.headWrapper{
+  margin-left: 32px;
+}
+
+.upper {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 75px;
+  margin-left: 100px;
+
+}
+
+.upperMenu{
+  padding-top: 6px;
+}
+
+.upperMenu a {
+  padding-left: 50px;
+  font-weight: 500;
+  color: grey;
+}
+
+.upperMenu a:hover {
+  color: black;
+}
+
+h1 {
+  font-size: 80px;
+  width: 700px;
+  line-height: 1.1;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: 700px;
+  width: 570px;
+  margin-top: -50px;
+  line-height: 1.5;
+}
+
+.flexHeader {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+  height: 700px;
+  margin-left: 100px;
+}
+
+.illustrationWorking {
+  margin-left: -130px;
+  object-fit: cover;
+  object-position: 117px 0;
+
+}
+
+.buttonStart {
+  /*не раб*/
+  border-radius: 20px;
+  margin-top: 40px;
+  min-width: 140px;
+}

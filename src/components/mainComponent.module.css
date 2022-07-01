@@ -1,0 +1,79 @@
+main{
+  background-color: hsl(0deg 0% 75% / 70%);
+  height: 735px;
+  border-radius: 5px;
+  /* margin-bottom: -277px;
+  position: relative; */
+}
+/* .backgroundColorUp{
+  background-color: hsl(0deg 0% 75% / 70%);
+  height: 322px;
+  position: absolute;
+  width: 1440px;
+  top: -322px;
+  z-index: 1;
+} */
+.advanced{
+  margin-top: 125px;
+  margin-left: 36%;
+  font-size: 50px;
+  padding-top: 20px;
+}
+.advancedText{
+  font-size: 18px;
+  margin-left: 34.5%;
+  width: 461px;
+  text-align: center;
+  
+}
+.centerBox{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: 135px;
+  margin-top: 65px;
+  font-size: 18px;
+}
+
+.boxLeft{
+  display: flex;
+  flex-direction: column;
+  width: 302px;
+  align-self: flex-start;
+
+}
+.boxCenter{
+  display: flex;
+  flex-direction: column;
+  width:  304px;
+  align-self: center;
+  position: absolute;
+  top: 57px;
+  left: 410px;
+  
+}
+.boxRight{
+  display: flex;
+  flex-direction: column;
+  width: 283px;
+  align-self: flex-end;
+  position: absolute;
+  top: 107px;
+  left: 826px;
+}
+.imgBox{
+    background-color: hsl(260, 8%, 14%);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.imgBox img{
+  position: absolute;
+  top: 28px;
+  left: 30px;
+}
+.boxRight img{
+  top: 26px;
+  left: 27px;
+}
